@@ -5,5 +5,5 @@ variable "region" {
 }
 
 variable "api_key" {
-type = string
+
 }
