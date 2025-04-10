@@ -23,7 +23,7 @@ provider "ibm" {
 
 # Create a new VPC
 resource "ibm_is_vpc" "my_vpc" {
-  name = "my-vpc-1"
+  name = var.vpc_name
 }
 
 resource "time_sleep" "ram_resource_propagation" {
