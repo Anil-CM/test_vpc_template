@@ -7,3 +7,7 @@ variable "region" {
 variable "api_key" {
 
 }
+
+variable "vpc_name" {
+  
+}
