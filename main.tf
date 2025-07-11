@@ -27,5 +27,5 @@ resource "ibm_is_vpc" "my_vpc" {
 }
 
 resource "time_sleep" "ram_resource_propagation" {
-  create_duration = "900s"
+  create_duration = "10s"
 }
